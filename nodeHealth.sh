@@ -16,3 +16,5 @@ df -h
 free -g
 
 nproc
+
+ps -ef
