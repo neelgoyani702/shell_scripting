@@ -1,0 +1,20 @@
+2024-01-01 18:32:09 neelfirst-demo-s3
+i-0117cd063ace95f32	t2.micro	stopped
+Chef_from_guftgu_learning
+i-091031fdaded7f2de	t2.micro	stopped
+My First Instance
+{
+    "Functions": []
+}
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "Neel_Goyani",
+            "UserId": "AIDAQNRC2AU44LUI3SK2G",
+            "Arn": "arn:aws:iam::029064037689:user/Neel_Goyani",
+            "CreateDate": "2023-12-25T10:50:25+00:00",
+            "PasswordLastUsed": "2024-03-20T12:38:31+00:00"
+        }
+    ]
+}
