@@ -40,6 +40,12 @@ function list_users_with_read_access {
 }
 
 # Main script
+if [[ -z "$REPO_OWNER" || -z "$REPO_NAME" ]]; then
+    echo "Usage: $0 <repo_owner> <repo_name>"
+    exit 1
+fi
+
+
 
 echo "Listing users with read access to ${REPO_OWNER}/${REPO_NAME}..."
 list_users_with_read_access
